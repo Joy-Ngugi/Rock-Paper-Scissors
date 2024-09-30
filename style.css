@@ -1,0 +1,58 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(255, 247, 255) ;
+}
+h1{
+    color: purple;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+#choices{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.choice{
+   font-size: 7.5rem;
+   min-width: 160px;
+   margin:0 10px;
+   border-radius: 50% 50% 50% 50%;
+   padding: 0px;
+   background-color: rgb(209, 162, 253);
+   cursor: pointer;
+}
+button:hover{
+    background-color: rgb(141, 38, 238);
+}
+#player1, #player2{
+    font-size: 35px;
+}
+#gameResult{
+    font-size:40px ;
+    margin-top: 10px;
+}
+.scoreDisplay{
+    font-size: 2rem;
+}
+.purpleText , #playerScoreDisplay{
+    color:purple;
+}
+.redText , #computerScoreDisplay{
+    color:red;
+}
+button{
+    background-color: gainsboro;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:1% ;
+    border-radius: 25% 25% 25% 25%;
+}
+#gameOverMessage{
+    font-size:50px ;
+    margin-top: 2%;
+}
